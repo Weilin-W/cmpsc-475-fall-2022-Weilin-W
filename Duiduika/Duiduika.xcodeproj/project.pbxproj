@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11D89BE2912B6C300F06B5E /* DuiduikaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89BD2912B6C300F06B5E /* DuiduikaApp.swift */; };
+		C11D89C02912B6C300F06B5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89BF2912B6C300F06B5E /* ContentView.swift */; };
+		C11D89C22912B6C300F06B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11D89C12912B6C300F06B5E /* Assets.xcassets */; };
+		C11D89C52912B6C300F06B5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11D89C42912B6C300F06B5E /* Preview Assets.xcassets */; };
+		C11D89CF2912B6C300F06B5E /* DuiduikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89CE2912B6C300F06B5E /* DuiduikaTests.swift */; };
+		C11D89D92912B6C300F06B5E /* DuiduikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89D82912B6C300F06B5E /* DuiduikaUITests.swift */; };
+		C11D89DB2912B6C300F06B5E /* DuiduikaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89DA2912B6C300F06B5E /* DuiduikaUITestsLaunchTests.swift */; };
+		C11D89E82912DD4100F06B5E /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89E72912DD4100F06B5E /* ItemCard.swift */; };
+		C11D89EA2912DD9900F06B5E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89E92912DD9900F06B5E /* Card.swift */; };
+		C11D89EF2912DDBE00F06B5E /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89EE2912DDBE00F06B5E /* GameManager.swift */; };
+		C11D89F12912DDED00F06B5E /* Cards.json in Resources */ = {isa = PBXBuildFile; fileRef = C11D89F02912DDED00F06B5E /* Cards.json */; };
+		C11D89F32912E21700F06B5E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89F22912E21700F06B5E /* StorageManager.swift */; };
+		C11D89F52912E21E00F06B5E /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89F42912E21E00F06B5E /* FileInfo.swift */; };
+		C11D89F92912E45100F06B5E /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89F82912E45100F06B5E /* GameBoard.swift */; };
+		C11D89FB2912F30800F06B5E /* UserCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D89FA2912F30800F06B5E /* UserCardDeck.swift */; };
+		C1E884FD29411F150036EDE0 /* ylgymusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1E884FC29411F150036EDE0 /* ylgymusic.mp3 */; };
+		C1E884FF29441B580036EDE0 /* GameManager+Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E884FE29441B580036EDE0 /* GameManager+Connectivity.swift */; };
+		C1E8850129466CA80036EDE0 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E8850029466CA80036EDE0 /* Setting.swift */; };
+		C1E88503294676E40036EDE0 /* EraseThreeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E88502294676E40036EDE0 /* EraseThreeButton.swift */; };
+		C1E885052946804C0036EDE0 /* GameHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E885042946804C0036EDE0 /* GameHistory.swift */; };
+		C1F70ED429286A07004AFBDE /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F70ED329286A07004AFBDE /* StartingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C11D89CB2912B6C300F06B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C11D89B22912B6C300F06B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11D89B92912B6C300F06B5E;
+			remoteInfo = Duiduika;
+		};
+		C11D89D52912B6C300F06B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C11D89B22912B6C300F06B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11D89B92912B6C300F06B5E;
+			remoteInfo = Duiduika;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C11D89BA2912B6C300F06B5E /* Duiduika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duiduika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11D89BD2912B6C300F06B5E /* DuiduikaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuiduikaApp.swift; sourceTree = "<group>"; };
+		C11D89BF2912B6C300F06B5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C11D89C12912B6C300F06B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11D89C42912B6C300F06B5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C11D89CA2912B6C300F06B5E /* DuiduikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuiduikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11D89CE2912B6C300F06B5E /* DuiduikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuiduikaTests.swift; sourceTree = "<group>"; };
+		C11D89D42912B6C300F06B5E /* DuiduikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuiduikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11D89D82912B6C300F06B5E /* DuiduikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuiduikaUITests.swift; sourceTree = "<group>"; };
+		C11D89DA2912B6C300F06B5E /* DuiduikaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuiduikaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C11D89E72912DD4100F06B5E /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
+		C11D89E92912DD9900F06B5E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C11D89EE2912DDBE00F06B5E /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		C11D89F02912DDED00F06B5E /* Cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cards.json; sourceTree = "<group>"; };
+		C11D89F22912E21700F06B5E /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageManager.swift; path = "../../../Pokédex/Pokédex/ViewModel/StorageManager.swift"; sourceTree = "<group>"; };
+		C11D89F42912E21E00F06B5E /* FileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileInfo.swift; path = "../../../Pokédex/Pokédex/ViewModel/FileInfo.swift"; sourceTree = "<group>"; };
+		C11D89F82912E45100F06B5E /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		C11D89FA2912F30800F06B5E /* UserCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardDeck.swift; sourceTree = "<group>"; };
+		C1E884FC29411F150036EDE0 /* ylgymusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ylgymusic.mp3; sourceTree = "<group>"; };
+		C1E884FE29441B580036EDE0 /* GameManager+Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameManager+Connectivity.swift"; sourceTree = "<group>"; };
+		C1E8850029466CA80036EDE0 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		C1E88502294676E40036EDE0 /* EraseThreeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraseThreeButton.swift; sourceTree = "<group>"; };
+		C1E885042946804C0036EDE0 /* GameHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistory.swift; sourceTree = "<group>"; };
+		C1F70ED329286A07004AFBDE /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11D89B72912B6C300F06B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11D89C72912B6C300F06B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11D89D12912B6C300F06B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C11D89B12912B6C300F06B5E = {
+			isa = PBXGroup;
+			children = (
+				C11D89BC2912B6C300F06B5E /* Duiduika */,
+				C11D89CD2912B6C300F06B5E /* DuiduikaTests */,
+				C11D89D72912B6C300F06B5E /* DuiduikaUITests */,
+				C11D89BB2912B6C300F06B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11D89BB2912B6C300F06B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11D89BA2912B6C300F06B5E /* Duiduika.app */,
+				C11D89CA2912B6C300F06B5E /* DuiduikaTests.xctest */,
+				C11D89D42912B6C300F06B5E /* DuiduikaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11D89BC2912B6C300F06B5E /* Duiduika */ = {
+			isa = PBXGroup;
+			children = (
+				C1E884FC29411F150036EDE0 /* ylgymusic.mp3 */,
+				C11D89EB2912DD9F00F06B5E /* Model */,
+				C11D89EC2912DDA700F06B5E /* ViewModel */,
+				C11D89ED2912DDAE00F06B5E /* View */,
+				C11D89BD2912B6C300F06B5E /* DuiduikaApp.swift */,
+				C1F70ED329286A07004AFBDE /* StartingView.swift */,
+				C11D89BF2912B6C300F06B5E /* ContentView.swift */,
+				C11D89C12912B6C300F06B5E /* Assets.xcassets */,
+				C11D89C32912B6C300F06B5E /* Preview Content */,
+			);
+			path = Duiduika;
+			sourceTree = "<group>";
+		};
+		C11D89C32912B6C300F06B5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C11D89C42912B6C300F06B5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C11D89CD2912B6C300F06B5E /* DuiduikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C11D89CE2912B6C300F06B5E /* DuiduikaTests.swift */,
+			);
+			path = DuiduikaTests;
+			sourceTree = "<group>";
+		};
+		C11D89D72912B6C300F06B5E /* DuiduikaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C11D89D82912B6C300F06B5E /* DuiduikaUITests.swift */,
+				C11D89DA2912B6C300F06B5E /* DuiduikaUITestsLaunchTests.swift */,
+			);
+			path = DuiduikaUITests;
+			sourceTree = "<group>";
+		};
+		C11D89EB2912DD9F00F06B5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C11D89E92912DD9900F06B5E /* Card.swift */,
+				C11D89F02912DDED00F06B5E /* Cards.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C11D89EC2912DDA700F06B5E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C11D89EE2912DDBE00F06B5E /* GameManager.swift */,
+				C1E884FE29441B580036EDE0 /* GameManager+Connectivity.swift */,
+				C11D89F22912E21700F06B5E /* StorageManager.swift */,
+				C11D89F42912E21E00F06B5E /* FileInfo.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C11D89ED2912DDAE00F06B5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C11D89E72912DD4100F06B5E /* ItemCard.swift */,
+				C11D89F82912E45100F06B5E /* GameBoard.swift */,
+				C11D89FA2912F30800F06B5E /* UserCardDeck.swift */,
+				C1E8850029466CA80036EDE0 /* Setting.swift */,
+				C1E88502294676E40036EDE0 /* EraseThreeButton.swift */,
+				C1E885042946804C0036EDE0 /* GameHistory.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11D89B92912B6C300F06B5E /* Duiduika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11D89DE2912B6C300F06B5E /* Build configuration list for PBXNativeTarget "Duiduika" */;
+			buildPhases = (
+				C11D89B62912B6C300F06B5E /* Sources */,
+				C11D89B72912B6C300F06B5E /* Frameworks */,
+				C11D89B82912B6C300F06B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Duiduika;
+			productName = Duiduika;
+			productReference = C11D89BA2912B6C300F06B5E /* Duiduika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C11D89C92912B6C300F06B5E /* DuiduikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11D89E12912B6C300F06B5E /* Build configuration list for PBXNativeTarget "DuiduikaTests" */;
+			buildPhases = (
+				C11D89C62912B6C300F06B5E /* Sources */,
+				C11D89C72912B6C300F06B5E /* Frameworks */,
+				C11D89C82912B6C300F06B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C11D89CC2912B6C300F06B5E /* PBXTargetDependency */,
+			);
+			name = DuiduikaTests;
+			productName = DuiduikaTests;
+			productReference = C11D89CA2912B6C300F06B5E /* DuiduikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C11D89D32912B6C300F06B5E /* DuiduikaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11D89E42912B6C300F06B5E /* Build configuration list for PBXNativeTarget "DuiduikaUITests" */;
+			buildPhases = (
+				C11D89D02912B6C300F06B5E /* Sources */,
+				C11D89D12912B6C300F06B5E /* Frameworks */,
+				C11D89D22912B6C300F06B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C11D89D62912B6C300F06B5E /* PBXTargetDependency */,
+			);
+			name = DuiduikaUITests;
+			productName = DuiduikaUITests;
+			productReference = C11D89D42912B6C300F06B5E /* DuiduikaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11D89B22912B6C300F06B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C11D89B92912B6C300F06B5E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C11D89C92912B6C300F06B5E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C11D89B92912B6C300F06B5E;
+					};
+					C11D89D32912B6C300F06B5E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C11D89B92912B6C300F06B5E;
+					};
+				};
+			};
+			buildConfigurationList = C11D89B52912B6C300F06B5E /* Build configuration list for PBXProject "Duiduika" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C11D89B12912B6C300F06B5E;
+			productRefGroup = C11D89BB2912B6C300F06B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11D89B92912B6C300F06B5E /* Duiduika */,
+				C11D89C92912B6C300F06B5E /* DuiduikaTests */,
+				C11D89D32912B6C300F06B5E /* DuiduikaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11D89B82912B6C300F06B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11D89C52912B6C300F06B5E /* Preview Assets.xcassets in Resources */,
+				C1E884FD29411F150036EDE0 /* ylgymusic.mp3 in Resources */,
+				C11D89F12912DDED00F06B5E /* Cards.json in Resources */,
+				C11D89C22912B6C300F06B5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11D89C82912B6C300F06B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11D89D22912B6C300F06B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11D89B62912B6C300F06B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11D89FB2912F30800F06B5E /* UserCardDeck.swift in Sources */,
+				C11D89C02912B6C300F06B5E /* ContentView.swift in Sources */,
+				C1E8850129466CA80036EDE0 /* Setting.swift in Sources */,
+				C11D89BE2912B6C300F06B5E /* DuiduikaApp.swift in Sources */,
+				C1E885052946804C0036EDE0 /* GameHistory.swift in Sources */,
+				C1E884FF29441B580036EDE0 /* GameManager+Connectivity.swift in Sources */,
+				C11D89E82912DD4100F06B5E /* ItemCard.swift in Sources */,
+				C11D89F52912E21E00F06B5E /* FileInfo.swift in Sources */,
+				C1F70ED429286A07004AFBDE /* StartingView.swift in Sources */,
+				C11D89F92912E45100F06B5E /* GameBoard.swift in Sources */,
+				C11D89F32912E21700F06B5E /* StorageManager.swift in Sources */,
+				C11D89EA2912DD9900F06B5E /* Card.swift in Sources */,
+				C1E88503294676E40036EDE0 /* EraseThreeButton.swift in Sources */,
+				C11D89EF2912DDBE00F06B5E /* GameManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11D89C62912B6C300F06B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11D89CF2912B6C300F06B5E /* DuiduikaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11D89D02912B6C300F06B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11D89DB2912B6C300F06B5E /* DuiduikaUITestsLaunchTests.swift in Sources */,
+				C11D89D92912B6C300F06B5E /* DuiduikaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C11D89CC2912B6C300F06B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11D89B92912B6C300F06B5E /* Duiduika */;
+			targetProxy = C11D89CB2912B6C300F06B5E /* PBXContainerItemProxy */;
+		};
+		C11D89D62912B6C300F06B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11D89B92912B6C300F06B5E /* Duiduika */;
+			targetProxy = C11D89D52912B6C300F06B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C11D89DC2912B6C300F06B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C11D89DD2912B6C300F06B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11D89DF2912B6C300F06B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Duiduika/Preview Content\"";
+				DEVELOPMENT_TEAM = L66MHS2HQ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.wpw5138.Duiduika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C11D89E02912B6C300F06B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Duiduika/Preview Content\"";
+				DEVELOPMENT_TEAM = L66MHS2HQ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.wpw5138.Duiduika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C11D89E22912B6C300F06B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L66MHS2HQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.wpw5138.DuiduikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duiduika.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duiduika";
+			};
+			name = Debug;
+		};
+		C11D89E32912B6C300F06B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L66MHS2HQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.wpw5138.DuiduikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duiduika.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duiduika";
+			};
+			name = Release;
+		};
+		C11D89E52912B6C300F06B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L66MHS2HQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.wpw5138.DuiduikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Duiduika;
+			};
+			name = Debug;
+		};
+		C11D89E62912B6C300F06B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L66MHS2HQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.wpw5138.DuiduikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Duiduika;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11D89B52912B6C300F06B5E /* Build configuration list for PBXProject "Duiduika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11D89DC2912B6C300F06B5E /* Debug */,
+				C11D89DD2912B6C300F06B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11D89DE2912B6C300F06B5E /* Build configuration list for PBXNativeTarget "Duiduika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11D89DF2912B6C300F06B5E /* Debug */,
+				C11D89E02912B6C300F06B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11D89E12912B6C300F06B5E /* Build configuration list for PBXNativeTarget "DuiduikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11D89E22912B6C300F06B5E /* Debug */,
+				C11D89E32912B6C300F06B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11D89E42912B6C300F06B5E /* Build configuration list for PBXNativeTarget "DuiduikaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11D89E52912B6C300F06B5E /* Debug */,
+				C11D89E62912B6C300F06B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C11D89B22912B6C300F06B5E /* Project object */;
+}
